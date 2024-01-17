@@ -1,0 +1,51 @@
+#expense-section {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: #FF0060;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#expense-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#expense-header p, button {
+    margin: 20px;
+}
+
+#expense-header button {
+    padding: 10px;
+    color: #282c34;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+#expense-header button:hover {
+    padding: 10px;
+    color: #282c34;
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+#expense-header input {
+    border: none;
+    margin-left: 10px;
+    width: 100px;
+    height: 25px;
+}
+
+#expense-header #expense-input-name {
+    width: 150px;
+}
+
+#expense-scrollable {
+    height: 350px;
+    overflow-y: scroll;
+}

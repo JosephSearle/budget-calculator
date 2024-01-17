@@ -1,0 +1,27 @@
+#expense-container {
+    display: flex;
+    width: 500px;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#expense-labels {
+    margin: 20px;
+}
+
+#expense-labels label {
+    margin-right: 20px;
+}
+
+
+button{
+    border: none;
+    background-color: #FF0060;
+    color: #282c34;
+}
+
+button:hover {
+    border: none;
+    cursor: pointer;
+}

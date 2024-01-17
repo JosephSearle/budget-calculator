@@ -1,0 +1,21 @@
+#result-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 500px;
+    border-radius: 5px;
+    background-color: #282c34;
+    margin: 10px;
+}
+
+#result-section label{
+    margin: 10px;
+}
+
+#result-section #result-positive {
+    color: #00DFA2;
+}
+
+#result-section #result-negative {
+    color: #FF0060;
+}
